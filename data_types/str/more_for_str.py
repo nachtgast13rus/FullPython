@@ -13,3 +13,10 @@ new_string = bytearray(b'Evgen')
 new_string.extend(b' is foggot')
 new_string = new_string.decode()
 print(new_string)
+
+# вместо экранирования символов в пути к файлу
+with open('C:\\dataset.txt') as text:
+    print(text.read())
+# можно сделать так
+with open(r'C:\dataset.txt') as text:
+    print(text.read())

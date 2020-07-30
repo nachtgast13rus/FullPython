@@ -12,11 +12,6 @@ for i in string:
 В качестве ответа укажите вывод программы, а не саму программу.
 Слова, написанные в разных регистрах, считаются одинаковыми."""
 
-line = 'abc a bCd bC AbC BC BCD bcd ABC'
-line_1 = line.lower()
-new_line = line_1.split(' ')
-print(new_line)
-print(line_1.count(new_line[0]))
 
 # with open("file.txt", 'r') as f:
 #     s = list(map(lambda i: i.strip('.,!?'), f.read().lower().split()))
